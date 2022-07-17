@@ -1,7 +1,7 @@
 def main():
     n = 2
     primeList = []
-    searchRange = int(2e6)
+    searchRange = 2000000
     isPrimeMap = [0] * (searchRange + 1)
     while n <= searchRange:
         if isPrimeMap[n] == 0:
